@@ -1,16 +1,15 @@
-# trabalho_pratico_flutter
+# Project Overview
+ExploreEasy is a mobile application developed in Flutter aimed at enhancing tourism exploration across various locations. Adapted from an earlier Kotlin-based application, ExploreEasy allows users to discover and explore points of interest in specific cities, mountains, beaches, islands, or other regions, providing relevant information and an intuitive interface to navigate and interact with these locales. The app utilizes Firebase to store location data, enabling efficient access to updated information.
 
-Trabalho pratico Amov 23/24
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Features
+Location Services: Retrieve the user's current location, with options to sort locations based on proximity or alphabetically.
+Interest Points: Users can view points of interest for each location, sortable by category, name, or distance.
+Anonymous Ratings: Users can anonymously rate locations as “Like” or “Dislike” and view aggregated ratings.
+Recent Searches: The last 10 locations viewed are saved locally, accessible via a dedicated screen.
+Data Persistence: Ratings and recent searches are stored using Flutter’s shared_preferences.
+Data Source: Firebase integration allows for seamless access to shared data across devices.
+Technologies Used
+Flutter for UI and cross-platform development.
+Firebase as the backend service for location data.
+shared_preferences for local storage of user activity (ratings and recent locations).
+Location package for accessing and managing the user’s current location.
